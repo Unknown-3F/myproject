@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .light {
+            padding: 4px;
+            background-color: aqua;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 2px #fff,
+                0 0 4px #0fa,
+                0 0 82px #0fa,
+                0 0 9px #0fa,
+                0 0 10px #0fa,
+                0 0 15px #0fa;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <h1>Making bulb turn off and on</h1>
+    <img src="pic/bulb-off.jpg" class="center" id="bulb">
+    <button id="button" class="center light">Turn on</button>
+    <script src="bulb.js"></script>
+</body>
+
+</html>
